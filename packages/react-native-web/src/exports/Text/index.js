@@ -63,7 +63,7 @@ class Text extends Component<*> {
     const { isInAParentText } = this.context;
 
     if (process.env.NODE_ENV !== 'production') {
-      warning(this.props.className == null, 'Using the "className" prop on <Text> is deprecated.');
+      // warning(this.props.className == null, 'Using the "className" prop on <Text> is deprecated.');
     }
 
     if (onPress) {
